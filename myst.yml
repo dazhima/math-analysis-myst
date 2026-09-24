@@ -1,0 +1,31 @@
+version: 1
+project:
+  title: Math261 数学分析讲义
+  toc:
+    - file: index.md
+    - title: 讲义
+      children:
+        - file: lectures/L01.md
+        - file: lectures/L02.md
+        - file: lectures/L03.md
+        - file: lectures/L04.md
+        - file: lectures/L05.md
+        - file: lectures/L06.md
+        - file: lectures/L07.md
+        - file: lectures/L08.md
+        - file: lectures/L09.md
+        - file: lectures/L10.md
+        - file: lectures/L11.md
+        - file: lectures/L12.md
+        - file: lectures/L13.md
+        - file: lectures/L14.md
+        - file: lectures/L15.md
+        - file: lectures/L16.md
+        - file: lectures/L17.md
+        - file: lectures/L18.md
+  settings:
+    parser:
+      dollarmath: true
+site:
+  template: book-theme
+  title: Math261 数学分析讲义

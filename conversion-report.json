@@ -1,0 +1,164 @@
+[
+  {
+    "lecture": "L01",
+    "title": "$\\sqrt2$ 与牛顿迭代 (Computing $\\sqrt2$ by hand)",
+    "blocks": 46,
+    "figures": 3,
+    "figure_errors": [],
+    "source_lines": 938,
+    "markdown_lines": 578
+  },
+  {
+    "lecture": "L02",
+    "title": "$\\varepsilon$-$N$:把“越来越接近”说清楚 (The $\\varepsilon$-$N$ language; Stolz's theorem)",
+    "blocks": 63,
+    "figures": 3,
+    "figure_errors": [],
+    "source_lines": 894,
+    "markdown_lines": 783
+  },
+  {
+    "lecture": "L03",
+    "title": "单调数列、上确界、$e$ 与 $\\gamma$ — Monotone sequences, the supremum, $e$ and Euler's $\\gamma$",
+    "blocks": 58,
+    "figures": 2,
+    "figure_errors": [],
+    "source_lines": 777,
+    "markdown_lines": 780
+  },
+  {
+    "lecture": "L04",
+    "title": "迭代数列：蜘蛛网、压缩与牛顿法的速度 — (Iterated sequences: cobwebs, contractions, and Newton's speed)",
+    "blocks": 63,
+    "figures": 6,
+    "figure_errors": [],
+    "source_lines": 955,
+    "markdown_lines": 773
+  },
+  {
+    "lecture": "L05",
+    "title": "子列、Bolzano–Weierstrass、上下极限 — (Subsequences, Bolzano–Weierstrass, limsup and liminf)",
+    "blocks": 61,
+    "figures": 5,
+    "figure_errors": [],
+    "source_lines": 610,
+    "markdown_lines": 803
+  },
+  {
+    "lecture": "L06",
+    "title": "函数极限与无穷小的阶 — (Limits of functions; orders of smallness)",
+    "blocks": 70,
+    "figures": 4,
+    "figure_errors": [],
+    "source_lines": 708,
+    "markdown_lines": 815
+  },
+  {
+    "lecture": "L07",
+    "title": "连续函数 I：零点与介值 — (Continuity I: zeros and the intermediate value theorem)",
+    "blocks": 65,
+    "figures": 6,
+    "figure_errors": [],
+    "source_lines": 684,
+    "markdown_lines": 771
+  },
+  {
+    "lecture": "L08",
+    "title": "连续函数 II：最值、一致连续、单调与反函数 — (Continuity II: extreme values, uniform continuity, monotone and inverse functions)",
+    "blocks": 65,
+    "figures": 5,
+    "figure_errors": [],
+    "source_lines": 763,
+    "markdown_lines": 864
+  },
+  {
+    "lecture": "L09",
+    "title": "导数与微分：线性逼近 — (The derivative as linear approximation)",
+    "blocks": 53,
+    "figures": 6,
+    "figure_errors": [],
+    "source_lines": 714,
+    "markdown_lines": 780
+  },
+  {
+    "lecture": "L10",
+    "title": "从中值定理到 Taylor 公式 — (From the mean value theorem to Taylor's theorem)",
+    "blocks": 59,
+    "figures": 5,
+    "figure_errors": [],
+    "source_lines": 872,
+    "markdown_lines": 632
+  },
+  {
+    "lecture": "L11",
+    "title": "Taylor 公式的运用 — (Using Taylor's theorem)",
+    "blocks": 65,
+    "figures": 4,
+    "figure_errors": [],
+    "source_lines": 1157,
+    "markdown_lines": 897
+  },
+  {
+    "lecture": "L12",
+    "title": "凸函数 — (Convex functions)",
+    "blocks": 59,
+    "figures": 3,
+    "figure_errors": [],
+    "source_lines": 694,
+    "markdown_lines": 792
+  },
+  {
+    "lecture": "L13",
+    "title": "不等式：估计的艺术 — (Inequalities: the art of estimation)",
+    "blocks": 79,
+    "figures": 4,
+    "figure_errors": [],
+    "source_lines": 777,
+    "markdown_lines": 912
+  },
+  {
+    "lecture": "L14",
+    "title": "实数：$\\mathbb{Q}$ 的完备化 — (Real numbers: the completion of Q)",
+    "blocks": 57,
+    "figures": 4,
+    "figure_errors": [],
+    "source_lines": 912,
+    "markdown_lines": 722
+  },
+  {
+    "lecture": "L15",
+    "title": "定积分的定义：面积、和式与数值积分 (The definite integral: area, sums, and numerical integration)",
+    "blocks": 53,
+    "figures": 4,
+    "figure_errors": [],
+    "source_lines": 970,
+    "markdown_lines": 720
+  },
+  {
+    "lecture": "L16",
+    "title": "微积分基本定理与积分中值定理 — (The fundamental theorem of calculus and the mean value theorems for integrals；不定积分速览)",
+    "blocks": 72,
+    "figures": 3,
+    "figure_errors": [],
+    "source_lines": 746,
+    "markdown_lines": 909
+  },
+  {
+    "lecture": "L17",
+    "title": "积分的估计与极限交换 — (Estimating integrals; sums vs. integrals; limits vs. integrals)",
+    "blocks": 62,
+    "figures": 5,
+    "figure_errors": [],
+    "source_lines": 935,
+    "markdown_lines": 791
+  },
+  {
+    "lecture": "L18",
+    "title": "反常积分：敛散性的判别 — (Improper integrals: convergence tests)",
+    "blocks": 81,
+    "figures": 7,
+    "figure_errors": [],
+    "source_lines": 813,
+    "markdown_lines": 976
+  }
+]
