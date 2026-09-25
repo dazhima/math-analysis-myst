@@ -34,3 +34,10 @@ python3 tools/validate.py
 当前版本包含 18 个 Markdown 讲义文件和 79 幅 SVG 图。详细验证结果见 [`VALIDATION.md`](VALIDATION.md)。
 
 LaTeX 正式源文件与项目记录保存在主项目 [`dazhima/math-teaching`](https://github.com/dazhima/math-teaching)；本仓库用于发布可直接阅读的 Markdown 版本。
+
+## 第三讲修订版（2026-09-25）
+
+第三讲已完成中文例题、习题及提示，新增调和和的面积解释、欧拉常数误差修正与配图，删除 AI Lab。 [下载第三讲 PDF](pdf/L03.pdf)。
+
+L03 是经人工审阅的 Markdown 修订稿，已同步回 LaTeX；不要用旧的整套转换器覆盖它。其他讲仍沿用原转换流程。
+

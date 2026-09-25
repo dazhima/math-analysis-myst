@@ -20,8 +20,8 @@ def main() -> int:
     svgs = sorted(ASSETS.glob("*.svg"))
     if len(files) != 18:
         errors.append(f"expected 18 lecture files, found {len(files)}")
-    if len(svgs) != 79:
-        errors.append(f"expected 79 SVG figures, found {len(svgs)}")
+    if len(svgs) != 82:
+        errors.append(f"expected 82 SVG figures, found {len(svgs)}")
 
     index = (ROOT / "index.md").read_text()
     for label in re.findall(r"\[([^\]]+)\]\(lectures/L\d\d\.md\)", index):
@@ -68,8 +68,8 @@ def main() -> int:
                 errors.append(f"{path.name}: missing image {rel}")
         total_callouts += len(re.findall(r"(?m)^> \[!(?:NOTE|IMPORTANT|WARNING)\]", text))
 
-    if total_images != 79:
-        errors.append(f"expected 79 image references, found {total_images}")
+    if total_images != 80:
+        errors.append(f"expected 80 image references, found {total_images}")
     for svg in svgs:
         try:
             ET.parse(svg)
