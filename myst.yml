@@ -3,7 +3,7 @@ project:
   title: Math261 数学分析讲义
   toc:
     - file: index.md
-    - title: 讲义
+    - title: 现行讲义
       children:
         - file: lectures/L01.md
         - file: lectures/L02.md
@@ -13,6 +13,8 @@ project:
         - file: lectures/L06.md
         - file: lectures/L07.md
         - file: lectures/L08.md
+    - title: 历史讲义（待重写）
+      children:
         - file: lectures/L09.md
         - file: lectures/L10.md
         - file: lectures/L11.md
@@ -23,6 +25,9 @@ project:
         - file: lectures/L16.md
         - file: lectures/L17.md
         - file: lectures/L18.md
+    - title: 扩展阅读
+      children:
+        - file: supplements/rational-approximation.md
   settings:
     parser:
       dollarmath: true

@@ -1,53 +1,13 @@
-# Math261 数学分析讲义：Obsidian / MyST 版
+# Math261 数学分析讲义：Obsidian / MyST 阅读版
 
-这是 Math261 数学分析讲义的独立 Markdown 阅读版，共 18 讲。它使用 Obsidian 与 MyST 共同支持的语法，适合在 Obsidian 中阅读，也可以构建为 MyST 网站。
+本仓库提供数学分析讲义的 Markdown 阅读版。**第 1–8 讲是当前修订稿；第 9–18 讲保留为历史稿，尚未按新课程设计重写。** 请从 [目录](index.md) 进入。
 
-## 在 Obsidian 中阅读
+在 Obsidian 中使用 **Open folder as vault** 打开本仓库即可阅读。公式用内置 MathJax 排版，图形使用自包含 SVG；不需要第三方插件。第 1–8 讲对应的 PDF 在 [`pdf/`](pdf/) 中。另有 [有理逼近扩展阅读](supplements/rational-approximation.md)，连接第 1、3 讲与 Dirichlet、连分数和 Roth 定理。
 
-选择 **Open folder as vault** 打开本仓库，然后从 [`index.md`](index.md) 进入。无需安装第三方插件。
-
-- 行内与陈列公式由 Obsidian 自带的 MathJax 渲染。
-- 图形是从原始 TikZ/pgfplots 编译而来的自包含矢量 SVG。
-- 定义、定理、例题、练习、AI Lab 与 IOU 使用 Obsidian callout 显示。
-- 目录链接中的少量数学符号使用 Unicode，因为 Obsidian 不会在链接文字内部排版 MathJax；正文公式仍使用完整 LaTeX 数学。
-
-## 用 MyST 构建
-
-安装 [MyST Markdown](https://mystmd.org/) 后，在仓库根目录运行：
-
-```bash
-myst start
-```
-
-或者生成 HTML：
-
-```bash
-myst build --html
-```
-
-## 完整性检查
+MyST 用户可在仓库根目录运行 `myst start` 预览，或运行 `myst build --html` 构建网站。离线完整性检查：
 
 ```bash
 python3 tools/validate.py
 ```
 
-当前版本包含 18 个 Markdown 讲义文件和 79 幅 SVG 图。详细验证结果见 [`VALIDATION.md`](VALIDATION.md)。
-
-LaTeX 正式源文件与项目记录保存在主项目 [`dazhima/math-teaching`](https://github.com/dazhima/math-teaching)；本仓库用于发布可直接阅读的 Markdown 版本。
-
-## 第一讲修订版（2026-09-30）
-
-第一讲按学生第一轮阅读意见修订：§2补充取平均的动机，§3先直接用计算器看误差再手动估计，图 1 标出三次更新，新增脚注和每节新词表，习题重编并新增连分数与迭代分母的两道题。 [下载第一讲 PDF](pdf/L01.pdf)。
-
-L01 同样是经人工审阅的 Markdown 修订稿，已同步回 LaTeX；不要用旧的整套转换器覆盖它。
-
-## 第三讲修订版（2026-09-25）
-
-第三讲已完成中文例题、习题及提示，补充阶乘部分和的计算动机及两种近似的误差比较，新增调和和的面积解释、欧拉常数误差修正与配图，删除 AI Lab。 [下载第三讲 PDF](pdf/L03.pdf)。
-
-L03 是经人工审阅的 Markdown 修订稿，已同步回 LaTeX；不要用旧的整套转换器覆盖它。其他讲仍沿用原转换流程。
-
-
-第三讲2026-09-25最新同步为28页：统一P记号并添加Obsidian悬停引用；第8节新增辅助数列的归纳及双侧估计路线。PDF内对应链接可点击跳转。
-
-2026-09-30：第三讲PDF更新为29页，§7.8第一段改写，并在定理3.14的证明后加“极限与求和的交换”旁注。
+讲义的 LaTeX 源码及项目记录保存在主项目 [`dazhima/math-teaching`](https://github.com/dazhima/math-teaching)。第 1–8 讲 Markdown 经人工修改；不要用旧的整套转换器覆盖它们。本仓库不包含教材扫描件或项目内部审查材料。
